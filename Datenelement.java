@@ -1,7 +1,7 @@
 
 public class Datenelement
 {
-    int Telefonnummer;
+    String vname;
     String name;
     
     public Datenelement()
@@ -9,14 +9,14 @@ public class Datenelement
         
     }
 
-    public Datenelement(int nr, String na)
+    public Datenelement(String vn, String na)
     {
-        Telefonnummer = nr;
+        vname = vn;
         name = na;
     }
     
     void Ausgabe()
     {
-        System.out.println("Telefonnummer :"+ Telefonnummer + ", Name :"+name);
+        System.out.println(vname + ", " + name);
     }
 }

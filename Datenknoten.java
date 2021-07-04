@@ -15,6 +15,12 @@ public class Datenknoten extends Listenelement
         inhalt = DE;
     }
     
+    public Datenknoten(Datenelement DE)
+    {
+        naechster = new Abschluss();
+        inhalt = DE;
+    }
+    
     Listenelement hintenEinfuegen (Datenelement knoteninhalt)
     {
         //Der erste im Stativ ist der erste in der Warteschlange
