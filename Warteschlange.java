@@ -52,5 +52,7 @@ public class Warteschlange
         einfuegen(e);
         Datenelement f = new Datenelement("Moritz", "Demeter");
         einfuegen(f);
+        Datenelement g = new Datenelement("Niklas", "Liebau");
+        einfuegen(g);
     }
 }
