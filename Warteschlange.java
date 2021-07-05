@@ -42,6 +42,8 @@ public class Warteschlange
     {
         Datenelement a = new Datenelement("Jürgen", "Kraus");
         einfuegen(a);
+        Datenelement b = new Datenelement("Simon", "Franken");
+        einfuegen(b);
         
     }
 }
